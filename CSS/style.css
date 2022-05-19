@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(34, 12, 131,0.4);
+}
+.title{
+    color: brown;
+}
+
+h1 :hover{
+    color: blue;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color:green;
+}
+li:nth-child(2){
+    color:blueviolet
+}
+td:only-child{
+    color: brown;
+}
+
+/* #google-link:link{
+    color: blue;
+}
+#google-link:visited{
+    color: red;
+} */
+
+/* + means following one another */
+h2 + a {
+    color: red;
+}
+/* This means they both have same parents  */
+textarea ~ button{    
+    color: blueviolet;
+}
+
+img[src^="../images"]{
+    border: 10px solid black;
+}
+.subtitle{
+    color: aqua;
+}
+#head{
+    color: rgb(10, 163, 56);
+}
+#head :hover{
+    color: rgb(186, 28, 78);
+}
+#service-image{
+    height: 400px;
+    width: 70%;
+    /* background: url("../images/download.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    /* important now🅰 */
+    /* background: linear-gradient(to bottom left,rgba(34, 12, 131,1),black,rgb(34,12,131,0)); */
+    background: radial-gradient(circle,red 10%,yellow 20%,blue 65%);
+    background-color: steelblue;
+}
