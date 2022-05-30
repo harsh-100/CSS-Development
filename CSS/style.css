@@ -1,5 +1,7 @@
 body {
     background-color: rgba(34, 12, 131,0.4);
+    font-size: 2em;   
+    /* By using the em it said the 2 times of earlier font size it is a relative unit */
 }
 .title{
     color: brown;
